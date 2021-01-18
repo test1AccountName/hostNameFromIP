@@ -1,36 +1,46 @@
-﻿﻿﻿<?php include("./exit.php"); ?>
+﻿﻿﻿﻿<?php include("./exit.php"); ?>
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex" />
-    <link href="style.css" rel="stylesheet" media="all" type="text/css">
     <link rel="icon" href="/Images/favicon.ico" />
     <style>
+      /* La mise en page */
       body {
         display: flex;
         height: 650px;
       }
-      
       #form { 
         background-color: #d0bcbc;
         border: 1px solid purple;
         margin: auto;
       }
       
+      /* Le formulaire */
       input:invalid 
       {
         border: 2px dashed red;
       }
-
       input:valid 
       {
         border: 1px solid black;
-      }
-
+      }﻿    
       p.ip_by_default
       {
         font-size: small;
+      }
+      
+      /* Redéfinition des liens */
+      a:hover {
+        text-decoration: underline;
+      }       
+      a:link {
+        color: #000099;
+        text-decoration: none;
+      }
+      p.src {
+       font-size: small;
       }
     </style>
   </head>
