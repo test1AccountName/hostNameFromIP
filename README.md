@@ -1,2 +1,2 @@
 # hostNameFromIP
-Pour voir le résultat, deveweb.free.fr/hostNameFromIP.php
+Pour voir le résultat, http://deveweb.free.fr/hostNameFromIP.php
